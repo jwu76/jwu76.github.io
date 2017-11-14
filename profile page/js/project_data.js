@@ -23,7 +23,7 @@ var projects = [
      "githublink" : "https://github.com/jwu76/IT202/tree/master/project4",
      "viewable_link": "https://jwu76.github.io/IT202/project4/index.html"
     },
-    {"name": "Weather App", "description": "using PWA to create a simple weather app",
+    {"name": "Weather App", "display": false, "description": "using PWA to create a simple weather app",
     "technologies": "PWA, service worker, manifest",
     "image": "https://i.imgur.com/uuonck8.jpg",
     "githublink": "https://github.com/jwu76/IT202/tree/master/project5",
