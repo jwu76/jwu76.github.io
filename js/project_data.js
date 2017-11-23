@@ -34,6 +34,12 @@ var projects = [
      "image": "https://i.imgur.com/LXSR6E9.jpg",
      "githublink": "https://github.com/jwu76/IT202/tree/master/project7",
      "viewable_link": "https://jwu76.github.io/IT202/project7/"
+    },
+    {"name": "React Tutorial", "display": false, "description": "using react to create a tic tac toe game",
+     "technologies": "react, jsx",
+     "image": "https://i.imgur.com/1k2ktNE.jpg",
+     "githublink": "https://github.com/jwu76/IT202/tree/master/project8",
+     "viewable_link": "https://jwu76.github.io/IT202/project8/"
     }
     ]
 
