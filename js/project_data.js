@@ -40,7 +40,13 @@ var projects = [
      "image": "https://i.imgur.com/1k2ktNE.jpg",
      "githublink": "https://github.com/jwu76/IT202/tree/master/project8",
      "viewable_link": "https://jwu76.github.io/IT202/project8/"
-    }
+    }, 
+     {"name": "FINAL PROJECT", "display": false, "description": "create an app using the materials covered in class",
+     "technologies": "material components, indexedDB(Dexie), geolocation, ",
+     "image": "https://i.imgur.com/6aBnVFG.png",
+     "githublink": "https://github.com/jwu76/IT202/tree/master/final",
+     "viewable_link": "https://jwu76.github.io/IT202/final/"
+    }, 
     ]
 
     $(function() {
