@@ -46,7 +46,7 @@ var projects = [
      "image": "https://i.imgur.com/6aBnVFG.png",
      "githublink": "https://github.com/jwu76/IT202/tree/master/final",
      "viewable_link": "https://jwu76.github.io/IT202/final/"
-    }, 
+    }
     ]
 
     $(function() {
