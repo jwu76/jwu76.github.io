@@ -47,7 +47,7 @@ var projects = [
      "githublink": "https://github.com/jwu76/IT202/tree/master/final",
      "viewable_link": "https://jwu76.github.io/IT202/final/"
     }
-    ]
+    ];
 
     $(function() {
         jQuery.each(projects, function(i, v)
