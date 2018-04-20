@@ -46,12 +46,21 @@ var projects = [
      "image": "https://i.imgur.com/6aBnVFG.png",
      "githublink": "https://github.com/jwu76/IT202/tree/master/final",
      "viewable_link": "https://jwu76.github.io/IT202/final/"
+    },
+        {
+        "name": "T4A", "display": false, "description" : "prototype for a transit system UI",
+        "technologies": "Bootstrap, JS, HTML",
+        "image": "https://jwu76.github.io/transit4all/images/reloadablePass.png",
+        "githublink": "https://github.com/jwu76/transit4all",
+        "viewable_link": "https://jwu76.github.io/transit4all/transitsystem.html"
     }
     ];
 
+var project2 = [
+]
+
     $(function() {
-        jQuery.each(projects, function(i, v)
-        {
+        jQuery.each(projects, function(i, v){
             var clone = $("#projectObjs").clone();
             clone.removeAttr("id");
             clone.find("img").attr("src", v.image);
@@ -62,8 +71,6 @@ var projects = [
             clone.removeClass("hidden");
             clone.attr("id", v.name);      
             $("#portfolio").append(clone);
-            
-           
      });
     });
     
